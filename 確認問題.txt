@@ -1,0 +1,9 @@
+問1
+行の高さを30pxに設定したい場合は、どのプロパティと値を指定しますか。次から選んでください。
+　　　1. line-height: 30;
+　　　2. line-height: 30px;
+　　　3. row-height: 30;
+　　　4. row-height: 30px;
+
+A.
+2. line-height: 30px;

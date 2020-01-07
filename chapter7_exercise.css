@@ -1,0 +1,43 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.main_visual{
+	width: 100%;
+	height: 400px;
+	background-image: url(chapter7_exercise_img/mv.jpg);
+	background-position: bottom;
+	background-size: cover;
+}
+
+main{
+	padding-bottom: 50px;
+}
+
+h1{
+	padding: 20px 0 0 20px;
+}
+
+h2{
+	font-size: 18px;
+}
+
+.main-wc{
+	width: 840px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	text-align: left;
+	border-bottom: 1px solid black;
+	margin: 0 auto;
+}
+
+.main-wcpwc{
+	width: 840px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: left;
+	border-bottom: 1px solid black;
+	margin: 0 auto;
+}
