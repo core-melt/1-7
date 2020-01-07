@@ -7,11 +7,16 @@
 </head>
 <body>
 	<!-- /header -->
-	<div class="main_visual">
+	<!--<div class="main_visual">
 		<h1>サービス紹介</h1>
-	</div>
+	</div>-->
+
+	<!-- /divではなくsectionを使用する -->
+	<section class="main-visual">
+		<h1 class="headline">サービス紹介</h1>
+	</section>
 	<main>
-		<div class="main-wc">
+		<!--<div class="main-wc">
 			<img class="wc-img" src="chapter7_exercise_img/wc-logo.png">
 			<section>
 				<h2>
@@ -20,37 +25,31 @@
 				</h2>
 				<a href="https://www.google.com/">Webサイト</a>
 			</section>
-		</div>
-		<div class="main-wcpwc">
-			<img class="wc-img" src="chapter7_exercise_img/wcp-logo.png">
-			<section>
-				<h2>
-					マンツーマンサポートによる学習で、<br>
-					確実にWebスキルを習得できるプログラミングスクールです。
-				</h2>
-				<a href="https://www.google.com/">Webサイト</a>
-			</section>
-		</div>
-		<div class="main-wcpwc">
-			<img class="wc-img" src="chapter7_exercise_img/wcw-logo.png">
-			<section>
-				<h2>
-					マンツーマンサポートによる学習で、<br>
-					確実にWebスキルを習得できるプログラミングスクールです。
-				</h2>
-				<a href="https://www.google.com/">Webサイト</a>
-			</section>
-		</div>
-		<div class="main-wcpwc">
-			<img class="wc-img" src="chapter7_exercise_img/wcc-logo.png">
-			<section>
-				<h2>
-					マンツーマンサポートによる学習で、<br>
-					確実にWebスキルを習得できるプログラミングスクールです。
-				</h2>
-				<a href="https://www.google.com/">Webサイト</a>
-			</section>
-		</div>
+		</div>-->
+
+		<!-- /各タブの使用方法について再履修が必要。特に<p>と<hx>の使い分け-->
+		<section class="service1">
+			<h2><img src="chapter7_exercise_img/wc-logo.png" alt="ロゴ"></h2>
+			<p>マンツーマンサポートによる学習で、<br>確実にWebスキルを習得できるプログラミングスクールです。</p>
+			<a href="https://web-camp.io/">webサイト</a>
+		</section>
+		<section class="service2">
+		  	<h2><img src="chapter7_exercise_img/wcp-logo.png" alt="ロゴ"></h2>
+		  	<p>未経験から転職を保証する<br>日本で唯一のプログラミングスクールです。</p>
+		  	<a href="http://web-camp.io/pro/">webサイト</a>
+		</section>
+
+		<section class="service3">
+		  	<h2><img src="chapter7_exercise_img/wcw-logo.png" alt="ロゴ"></h2>
+		  	<p>家庭も仕事も頑張りたい主婦・ママ向けの、<br>1ヶ月でWebサイトを制作するWebデザインスクールです。</p>
+		  	<a href="http://web-camp.io/woman/">webサイト</a>
+		</section>
+
+		<section class="service4">
+		  	<h2><img src="chapter7_exercise_img/wcc-logo.png" alt="ロゴ"></h2>
+		  	<p>3000名のエンジニアをサポートしてきたエージェントが<br>あなたの転職をサポート。</p>
+		  	<a href="http://web-camp.io/career/">webサイト</a>
+		</section>
 	</main>
 	<footer></footer>
 </body>
